@@ -54,13 +54,16 @@ public class ValidacoesStringTests
     }
 
     //TODO: Corrigir a anotação [Fact]
+   
+   
+   [Fact]
     public void TextoDeveTerminarComAPalavraProcurado()
     {
-        //TODO: Corrigir a variável "textoProcurado" seção Arrange
+        //TODO: Corrigir a variável "textoProcurado" seção Arrange feito
 
         // Arrange
         var texto = "Começo, meio e fim do texto procurado";
-        var textoProcurado = "teste";
+        var textoProcurado = "teste Procurado";
 
         // Act
         var resultado = _validacoes.TextoTerminaCom(texto, textoProcurado);
