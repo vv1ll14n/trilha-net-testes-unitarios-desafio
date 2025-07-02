@@ -65,7 +65,7 @@ public class ValidacoesListaTests
         // Act
         var OperacaoResultado = _validacoes.MultiplicarNumerosLista(lista, 2);
         // Assert
-        Assert.Equals(resultadoEsperado, OperacaoResultado);
+        Assert.Equal(resultadoEsperado, OperacaoResultado);
     }
 
     [Fact]
