@@ -56,7 +56,7 @@ public class ValidacoesListaTests
     [Fact]
     public void DeveMultiplicarOsElementosDaListaPor2()
     {
-        //TODO: Implementar método de teste
+        //TODO: Implementar método de teste feito
 
         // Arrange
         var lista = new List<int> { 5, 7, 8, 9 };
