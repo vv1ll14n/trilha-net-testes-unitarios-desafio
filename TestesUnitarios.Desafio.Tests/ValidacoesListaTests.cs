@@ -71,16 +71,16 @@ public class ValidacoesListaTests
     [Fact]
     public void DeveRetornar9ComoMaiorNumeroDaLista()
     {
-        //TODO: Implementar método de teste
+        //TODO: Implementar método de teste feito
 
         // Arrange
         var lista = new List<int> { 5, -1, -8, 9 };
 
         // Act
-
+        var resultado = _validacoes.RetornarMaiorNumeroLista(lista);
         // Assert
         //TODO: Corrigir o Assert.Equal com base no retorno da chamada ao método
-        Assert.Equal(9, 9);
+        Assert.Equal(9, resultado);
     }
 
     [Fact]
