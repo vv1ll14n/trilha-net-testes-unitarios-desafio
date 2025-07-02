@@ -63,7 +63,7 @@ public class ValidacoesStringTests
 
         // Arrange
         var texto = "Começo, meio e fim do texto procurado";
-        var textoProcurado = "teste Procurado";
+        var textoProcurado = "Começo, meio e fim do texto procurado";
 
         // Act
         var resultado = _validacoes.TextoTerminaCom(texto, textoProcurado);
